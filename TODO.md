@@ -27,6 +27,7 @@ df.groupby("id").apply(subtract_mean).show()
 
 - Problem with Python (< 3.7): `SyntaxError: more than 255 arguments` if p is too large
   with pandas udf. 
-  
+syd write this line
+
    - Update Python to 3.7 resolves this problem.
 
